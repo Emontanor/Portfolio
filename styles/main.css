@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  overflow-y: scroll;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.section {
+  padding: 4rem 0;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+h1, h2 {
+  color: #222;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 1rem;
+  object-fit: cover;
+}
+
+.placeholder {
+  background-color: #e0e0e0;
+  padding: 1rem;
+  border-radius: 8px;
+  font-style: italic;
+  color: #666;
+  margin-top: 1rem;
+}
+
+/* Enlaces */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
