@@ -112,12 +112,12 @@ h1, h2 {
 }
 
 .proyecto-item {
-  flex: 0 0 320px;
+  flex: 0 0 220px;
   background: #c9c6c6;
   border-radius: 1.5em;
   padding: 1.2em 1em;
   text-align: center;
-  color: #fff;
+  color: #222;
   text-decoration: none;
   box-shadow: 0 4px 16px rgba(0,0,0,0.10);
   transition: transform 0.15s, box-shadow 0.15s;
@@ -150,7 +150,7 @@ h1, h2 {
 .proyecto-item p {
     text-decoration: none;
   font-size: 1em;
-  color: #ffffff;
+  color: #222;
   margin: 0;
 }
 
