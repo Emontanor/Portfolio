@@ -31,8 +31,30 @@ h1, h2 {
   object-fit: cover;
 }
 
-.lista-estudios {
+.estudios-izquierda {
     text-align: left;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.skill-tag {
+  background-color: #0077cc;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.skill-tag:hover {
+  background-color: #005fa3;
 }
 
 .placeholder {
