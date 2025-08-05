@@ -32,7 +32,11 @@ h1, h2 {
 }
 
 .estudios-izquierda {
-    text-align: left;
+    list-style-type: disc;
+  margin-left: 2em;
+  text-align: left;
+  color: #222;
+  font-size: 1em;
 }
 
 .skills-container {
@@ -44,13 +48,15 @@ h1, h2 {
 }
 
 .skill-tag {
-  background-color: #0077cc;
-  color: white;
-  padding: 0.4rem 0.8rem;
-  border-radius: 20px;
-  font-size: 0.9rem;
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  padding: 0.4em 1.2em;
+  border-radius: 999px;
+  margin: 0.3em 0.5em 0.3em 0;
+  font-size: 1em;
   font-weight: 500;
-  transition: background-color 0.3s ease;
+  letter-spacing: 0.5px;
 }
 
 .skill-tag:hover {
