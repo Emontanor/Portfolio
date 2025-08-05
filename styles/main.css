@@ -154,6 +154,13 @@ h1, h2 {
   margin: 0;
 }
 
+.contacto-botones {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 1em;
+  flex-wrap: wrap;
+}
+
 .contacto-boton {
   display: inline-block;
   background: #0072b1;
