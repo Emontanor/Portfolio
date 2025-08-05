@@ -31,6 +31,10 @@ h1, h2 {
   object-fit: cover;
 }
 
+.lista-estudios {
+    text-align: left;
+}
+
 .placeholder {
   background-color: #e0e0e0;
   padding: 1rem;
