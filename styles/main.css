@@ -29,13 +29,13 @@ h1, h2 {
   overflow-x: auto;
   padding-bottom: 1em;
   margin-top: 1em;
-  scrollbar-color: #2155e6 #eee;
+  scrollbar-color: #666 #eee;
   scrollbar-width: thin;
 }
 
 .tecnologia-item {
   flex: 0 0 auto;
-  background: #2155e6;
+  background: #666;
   border-radius: 1em;
   padding: 1em 1.2em;
   text-align: center;
