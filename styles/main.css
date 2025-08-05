@@ -23,44 +23,6 @@ h1, h2 {
   color: #222;
 }
 
-.tecnologias-scroll {
-  display: flex;
-  gap: 1.5em;
-  overflow-x: auto;
-  padding-bottom: 1em;
-  margin-top: 1em;
-  scrollbar-color: #666 #eee;
-  scrollbar-width: thin;
-}
-
-.tecnologia-item {
-  flex: 0 0 auto;
-  background: #666;
-  border-radius: 1em;
-  padding: 1em 1.2em;
-  text-align: center;
-  color: #fff;
-  min-width: 110px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-}
-
-.tecnologia-item img {
-  width: 48px;
-  height: 48px;
-  object-fit: contain;
-  margin-bottom: 0.5em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.tecnologia-item span {
-  display: block;
-  margin-top: 0.3em;
-  font-size: 1em;
-  font-weight: 500;
-}
-
 .profile-pic {
   width: 150px;
   height: 150px;
@@ -99,6 +61,96 @@ h1, h2 {
 
 .skill-tag:hover {
   background-color: #0a0a0a;
+}
+
+.tecnologias-scroll {
+  display: flex;
+  gap: 1.5em;
+  overflow-x: auto;
+  padding-bottom: 1em;
+  margin-top: 1em;
+  scrollbar-color: #666 #eee;
+  scrollbar-width: thin;
+}
+
+.tecnologia-item {
+  flex: 0 0 auto;
+  background: #666;
+  border-radius: 1em;
+  padding: 1em 1.2em;
+  text-align: center;
+  color: #fff;
+  min-width: 110px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.tecnologia-item img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-bottom: 0.5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tecnologia-item span {
+  display: block;
+  margin-top: 0.3em;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.proyectos-scroll {
+  display: flex;
+  gap: 2em;
+  overflow-x: auto;
+  padding-bottom: 1em;
+  margin-top: 1em;
+  scrollbar-color: #666 #eee;
+  scrollbar-width: thin;
+}
+
+.proyecto-item {
+  flex: 0 0 320px;
+  background: #666;
+  border-radius: 1.5em;
+  padding: 1.2em 1em;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  transition: transform 0.15s, box-shadow 0.15s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.proyecto-item:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+}
+
+.proyecto-item img {
+  width: 100%;
+  max-width: 240px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 1em;
+  margin-bottom: 0.8em;
+  background: #666;
+}
+
+.proyecto-item h3 {
+  margin: 0.5em 0 0.3em 0;
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+.proyecto-item p {
+  font-size: 1em;
+  color: #ccc;
+  margin: 0;
 }
 
 .placeholder {
