@@ -79,7 +79,7 @@ h1, h2 {
   border-radius: 1em;
   padding: 1em 1.2em;
   text-align: center;
-  color: #fff;
+  color: #222;
   min-width: 110px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
