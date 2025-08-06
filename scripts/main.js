@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   const skills = [
-    "Pensamiento logico","Resolución de problemas","Capacidad para abstracción",
-    "Comunicacion","Trabajo en equipo","Escucha activa","Aprendizaje continuo","Curiosidad tecnica",
-    "Gestion del tiempo","Cumplimineto de plazos","Autogestion y autonomia"
+    "Pensamiento lógico","Resolución de problemas","Capacidad para abstracción",
+    "Comunicación","Trabajo en equipo","Escucha activa","Aprendizaje continuo","Curiosidad técnica",
+    "Gestión del tiempo","Cumplimiento de plazos","Autogestión y autonomía"
   ];
 
   const container = document.getElementById('skills-container');
