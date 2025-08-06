@@ -19,7 +19,12 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
-h1, h2 {
+h1 {
+  color: #222;
+  margin-bottom: 1.2em;
+} 
+
+h2 {
   color: #222;
 }
 
